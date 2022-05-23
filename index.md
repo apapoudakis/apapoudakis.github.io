@@ -4,7 +4,19 @@ layout: homepage
 
 ## About Me
 
-I am a Ph.D. student at ...
+I studied Electrical and Computer Engineering at the Aristotle University of Thessaloniki. After my graduation, I worked as a Research Associate at the Visual Computing Lab of Centre for Research and Technology Hellas. The following September, I will start my PhD studies at the University of Edinburgh.
+
+## Research Interests
+
+- **Multi-modal Learning,** **Natural Language Processing** **and Computer Vision**
+
+## News
+
+- **[May. 2022]** My [proposal](https://summerofcode.withgoogle.com/programs/2022/projects/QDwVy7Wb) has been accepted to GSoC 2022. The progress of this project will be tracked on this [blog](https://medium.com/@apapoudakis/).
+
+
+
+<!---
 
 ## Research Interests
 
@@ -48,3 +60,4 @@ I am a Ph.D. student at ...
 
 - Conference Reviewers: NeurIPS 2020, CVPR 2020.
 - Journal Reviewers: T-PAMI, IJCV.
+-->
