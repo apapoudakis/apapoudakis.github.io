@@ -10,7 +10,33 @@
     <link rel="shortcut icon" href="" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
 
+      <style>
 
+      h2 {
+        font-size: 28px;
+        /*padding-bottom: 10px;*/
+        /*border-bottom: 1px solid #e4e4e4;*/
+        margin-bottom: 22px;
+      }
+
+      .papertitle {
+        font-size: 19px;
+      }
+
+      .papertitle:hover {
+        color: #8a2a2a;
+      }
+
+      h2 + p,
+      p + p {
+        margin-bottom: 20px;
+      }
+
+      /* Mobile refinement */
+      @media (max-width: 680px) {
+        ul li strong { min-width: auto; display: block; margin-bottom: 2px; }
+      }
+    </style>
   </head>
 
   <body>
@@ -120,6 +146,7 @@ Previously, I studied Electrical and Computer Engineering (5-year degree) in Ari
             <h2>News</h2>
             <p>
                    <ul>
+                <li><strong>Apr. 2026</strong> - Our paper <em>Think Before you Write</em> is accepted to ACL Findings 2026</li>
                 <li><strong>Nov. 2024</strong> - Presented our work at EMNLP in Miami, Florida</li>
                 <li><strong>Sep. 2024</strong> - BookWorm paper Accepted to EMNLP Findings 2024</li>
                     <li><strong>Sep. 2022</strong> - Started my PhD at the School of Informatics, University of Edinburgh</li>
