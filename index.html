@@ -7,88 +7,45 @@
 
     <meta name="author" content="Argyrios Papoudakis">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
 
-      <style>
-
-      h2 {
-        font-size: 28px;
-        /*padding-bottom: 10px;*/
-        /*border-bottom: 1px solid #e4e4e4;*/
-        margin-bottom: 22px;
-      }
-
-      .papertitle {
-        font-size: 19px;
-      }
-
-      .papertitle:hover {
-        color: #8a2a2a;
-      }
-
-      h2 + p,
-      p + p {
-        margin-bottom: 20px;
-      }
-
-      /* Mobile refinement */
-      @media (max-width: 680px) {
-        ul li strong { min-width: auto; display: block; margin-bottom: 2px; }
-      }
-    </style>
   </head>
 
   <body>
-    <table style="width:100%;max-width:900px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-      <tr style="padding:0px">
-        <td style="padding:0px">
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr style="padding:0px">
-              <td style="padding:2.5%;width:70%;vertical-align:middle">
-                <p class="name" style="text-align: center;">
-                  Argyrios Papoudakis
-                </p>
+    <div class="site">
+      <main>
+        <section id="about" aria-label="Biography">
+          <div class="about-layout">
+            <div class="about-text">
+              <header>
+                <h1 class="name">Argyrios Papoudakis</h1>
+              </header>
 <p>
-I am a PhD student at the University of Edinburgh and part of the CDT in NLP program. My supervisors are <a href="https://homepages.inf.ed.ac.uk/keller/">Prof. Frank Keller</a> and <a href="https://homepages.inf.ed.ac.uk/mlap/">Prof. Mirella Lapata</a>. I am interested in long context (modeling, reasoning and evaluation), text-generation, narratives analysis and multi-modal (language and vision) learning.
+I’m a PhD student at the University of Edinburgh and part of the CDT in NLP program, supervised by <a href="https://homepages.inf.ed.ac.uk/keller/">Prof. Frank Keller</a> and <a href="https://homepages.inf.ed.ac.uk/mlap/">Prof. Mirella Lapata</a>. My research interests include long-context modeling, reasoning and evaluation, as well as text generation and efficiency.
 </p>
 <p>
 Previously, I studied Electrical and Computer Engineering (5-year degree) in Aristotle University of Thessaloniki. I also worked as a research scientist in Visual Computing Lab at CERTH for six months. I was a developer in Google Summer of Code with the Red Hen Lab organization the summer of 2022.
 </p>
 
-                <p style="text-align:center">
+                <p class="profile-links">
                   <a href="mailto:a.papoudakis@sms.ed.ac.uk">Email</a>  &nbsp;|&nbsp;
-                  <a href="data/CV.pdf">CV</a> &nbsp;|&nbsp;
+<!--                  <a href="data/CV.pdf">CV</a> &nbsp;|&nbsp;-->
 <!--                  <a href="data/JonBarron-bio.txt">Bio</a> &nbsp;/&nbsp;-->
                   <a href="https://scholar.google.com/citations?user=lQQbLJcAAAAJ&hl=en">Scholar</a> &nbsp;|&nbsp;
                   <a href="https://github.com/apapoudakis">GitHub</a> &nbsp;|&nbsp;
                   <a href="https://x.com/papoudaa">Twitter</a> &nbsp;|&nbsp;
                   <a href="https://www.linkedin.com/in/argyrios-papoudakis/">Linkedin</a>
                 </p>
-              </td>
-              <td style="padding:1%;width:70%;max-width:100%">
-                <a href="data/img.JPG"><img style="width:100%;max-width:90%;object-fit: cover; border-radius: 3%;" alt="profile photo" src="data/img.JPG" class="hoverZoomLink"></a>
-              </td>
-            </tr>
-          </tbody></table>
+            </div>
+            <a class="profile-photo" href="data/img.JPG">
+              <img src="data/img.JPG" alt="Argyrios Papoudakis">
+            </a>
+          </div>
+        </section>
 
-
-<!--                <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>-->
-<!--              <tr>-->
-<!--              <td style="padding:16px;width:100%;vertical-align:middle">-->
-<!--                <h2>Research</h2>-->
-<!--                <p>-->
-<!--                  I'm interested in computer vision, deep learning, generative AI, and image processing. Most of my research is about inferring the physical world (shape, motion, color, light, etc) from images, usually with radiance fields. Some papers are <span class="highlight">highlighted</span>.-->
-<!--                </p>-->
-<!--              </td>-->
-<!--            </tr>-->
-<!--          </tbody></table>-->
-
-              <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-              <tr>
-              <td style="padding:16px;width:100%;vertical-align:middle">
-                <h2>Publications</h2>
-                <p><a href="https://arxiv.org/abs/2604.11435">
+        <section id="publications" aria-labelledby="publications-heading">
+          <h2 id="publications-heading">Publications</h2>
+<p><a href="https://arxiv.org/abs/2604.11435">
 			    <span class="papertitle">Think Before you Write: QA-Guided Reasoning for Character Descriptions in Books</span>
                  </a>
                 <br>
@@ -99,11 +56,11 @@ Previously, I studied Electrical and Computer Engineering (5-year degree) in Ari
                 <em>ACL Findings</em>, 2026
                 <br>
                 <a href="https://arxiv.org/abs/2604.11435">Paper</a>
-                &nbsp|&nbsp
+                &nbsp;|&nbsp;
                 <a href="https://github.com/apapoudakis/qa-guided-reasoning">Code</a>
-                &nbsp|&nbsp
+                &nbsp;|&nbsp;
                 <a href="data/ACL_Poster.pdf">Poster</a>
-                &nbsp|&nbsp
+                &nbsp;|&nbsp;
                 <a href="#" onclick="openVideo('45l02ltJkJ4'); return false;">Video</a>
                 </p>
 
@@ -118,13 +75,12 @@ Previously, I studied Electrical and Computer Engineering (5-year degree) in Ari
                 <em>EMNLP Findings</em>, 2024
                 <br>
                 <a href="https://arxiv.org/pdf/2410.10372">Paper</a>
-                &nbsp|&nbsp
+                &nbsp;|&nbsp;
                 <a href="https://github.com/apapoudakis/BookWorm">Code</a>
-                &nbsp|&nbsp
+                &nbsp;|&nbsp;
                 <a href="data/BookWorm_Poster.pdf">Poster</a>
-                &nbsp|&nbsp
+                &nbsp;|&nbsp;
                 <a href="#" onclick="openVideo('n84jKL-ZIbQ'); return false;">Video</a>
-                <p></p>
                 </p>
 
                   <p>
@@ -141,16 +97,11 @@ Previously, I studied Electrical and Computer Engineering (5-year degree) in Ari
                 <br>
                 <a href="https://www.scitepress.org/PublishedPapers/2022/112793/112793.pdf">Paper</a>
                 </p>
-              </td>
-            </tr>
-          </tbody></table>
+        </section>
 
-            <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr>
-            <td style="padding:16px;width:100%;vertical-align:middle">
-            <h2>News</h2>
-            <p>
-               <ul>
+        <section id="news" aria-labelledby="news-heading">
+          <h2 id="news-heading">News</h2>
+<ul>
                 <li><strong>Jun. 2026</strong> - Presented our work at ACL 2026 in San Diego</li>
                 <li><strong>Jun. 2026</strong> - Attended the Machine Learning Summer School (MLSS) in New York</li>
                 <li><strong>Apr. 2026</strong> - Our paper <em>Think Before you Write</em> is accepted to ACL Findings 2026</li>
@@ -159,40 +110,14 @@ Previously, I studied Electrical and Computer Engineering (5-year degree) in Ari
                 <li><strong>Sep. 2022</strong> - Started my PhD at the School of Informatics, University of Edinburgh</li>
                 <li><strong>May 2022</strong> - Started working at GSoC with Red Hen Lab</li>
             </ul>
+        </section>
+      </main>
 
-            </p>
+      <footer>
+        <p>This website is based on Jon Barron's website, please check this <a href="https://github.com/jonbarron/jonbarron_website">repository</a>.</p>
+      </footer>
+    </div>
 
-<!--      <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>-->
-<!--              <tr>-->
-<!--              <td style="padding:20px;width:100%;vertical-align:middle">-->
-<!--                <h2>News</h2>-->
-<!--              </td>-->
-<!--            </tr>-->
-<!--          </tbody></table>-->
-<!--          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>-->
-<!--                  <ul>-->
-<!--                <li><strong>Nov. 2024</strong> - Present our work at EMNLP</li>-->
-<!--                <li><strong>Sep. 2024</strong> - BookWorm paper Accepted to EMNLP Findings 2024</li>-->
-<!--                    <li><strong>Sep. 2022</strong> - Started my PhD</li>-->
-<!--                    <li><strong>May 2022</strong> - Started working at GSoC with Red Hen Lab</li>-->
-
-<!--            </ul>-->
-
-<!--          </tbody></table>-->
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr>
-              <td style="padding:0px">
-                <br>
-                <p style="text-align:right;font-size:medium;">
-<!--                  Feel free to steal this website's <a href="https://github.com/jonbarron/jonbarron_website">source code</a>. <strong>Do not</strong> scrape the HTML from this page itself, as it includes analytics tags that you do not want on your own website &mdash; use the github code instead. Also, consider using <a href="https://leonidk.com/">Leonid Keselman</a>'s <a href="https://github.com/leonidk/new_website">Jekyll fork</a> of this page.-->
-                  This website is based on Jon Barron's website, please check this <a href="https://github.com/jonbarron/jonbarron_website">repository</a>.
-                </p>
-              </td>
-            </tr>
-          </tbody></table>
-<!--        </td>-->
-<!--      </tr>-->
-<!--    </table>-->
     <!-- Video popup overlay -->
     <div id="video-modal" onclick="closeVideo()"
          style="display:none;position:fixed;top:0;left:0;width:100%;height:100%;
